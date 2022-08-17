@@ -1,0 +1,66 @@
+.pull-left {
+  padding-top: 25px !important;
+  font-family: Caveat;
+  font-size: 50px;
+  font-weight: 600;
+  color: #3b444b;
+}
+.btn {
+  margin-bottom: 15px;
+  font-family: Poppins;
+}
+
+.btn-logout {
+  margin-left: 1111px;
+}
+
+.btn-edit {
+  width: 45%;
+}
+
+.btn-delete {
+  width: 47%;
+}
+
+thead tr {
+  background-color: #2ddfaa;
+  color: white;
+}
+
+.btn-success {
+  background-color: #3ae561;
+  border-color: #3ae561;
+}
+
+.btn-success:hover {
+  color: white;
+  background-color: #10a833;
+  border-color: #10a833;
+}
+
+.btn-danger {
+  background-color: #ff326f;
+  border-color: #ff326f;
+}
+
+.btn-danger:hover {
+  background-color: #d80947;
+  border-color: #d80947;
+}
+
+.help-block::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 0;
+  height: 1px;
+
+  -webkit-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  transition: all 0.6s;
+
+  background: #57b846;
+}

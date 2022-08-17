@@ -1,0 +1,174 @@
+html {
+  font-family: Poppins;
+  line-height: 1.5;
+  font-size: 1rem;
+  font-weight: 400;
+  columns: #212529;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* container */
+.wrapper {
+  width: 550px;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-md-12 {
+  position: relative;
+  width: 100%;
+}
+
+/* teks */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-top: 30px;
+}
+
+p {
+  margin-top: -10px;
+  margin-bottom: 25px;
+  text-align: justify;
+  color: #6c757d;
+}
+
+.form-group {
+  text-align: left !important;
+}
+
+.form-control {
+  width: 350px;
+  height: 35px;
+}
+
+.pull-left {
+  padding-top: 10px;
+  margin-bottom: -20px;
+}
+
+.pull-right {
+  padding-top: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* tabel */
+table {
+  border-collapse: collapse;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  margin-top: 30px;
+}
+
+/* th */
+.table th {
+  padding: 0.75rem;
+  color: white;
+  width: 40%;
+}
+
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+.table-bordered th {
+  border: 1px solid #dee2e6;
+}
+
+.table-striped thead tr {
+  background-color: #ff004c;
+}
+
+.table-bordered thead th {
+  border-bottom-width: 3px;
+}
+
+/* td */
+.table td {
+  padding: 0.75rem;
+  width: 59%;
+}
+
+.table-bordered td {
+  border: 1px solid #dee2e6;
+}
+
+.table-striped tbody tr {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+thead,
+tbody {
+  text-align: center;
+}
+
+/* anchor */
+a {
+  width: 150px;
+  position: relative;
+  left: 225px;
+  margin-top: 15px;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/* button */
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  margin-left: -10px;
+  margin-right: -210px;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out;
+  cursor: pointer;
+}
+.btn-custom {
+  color: white;
+  background-color: #ffc431;
+  border-color: #ffc431;
+}
+
+.btn-custom:hover {
+  color: white;
+  background-color: #f1ad01;
+  border-color: #dfa000;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
